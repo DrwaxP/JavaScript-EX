@@ -103,25 +103,7 @@
             border: black;
             position: relative;
         }
-        #search:hover::after {
-            cursor: pointer;
-            width: 100%;
-            background: black;
-            text-decoration: underline;
-            border: 3px solid white;
-            
 
-        }
-        #search:after {
-            content: "";
-            width: 0;
-            bottom: 0;
-            left: 0;
-            height: 100%;
-            border-radius: 10px;
-            position: absolute;
-            transition: 0.2s ease-in-out;
-        }
         .highlight { 
             background-color: yellow; 
         }
@@ -151,10 +133,10 @@
     <header>
         <h1 class="titulo">DOM</h1>
         <nav>
-            <a href="#" class="aconra">Inicio</a>
-            <a href="#" class="aconra">Sobre</a>
-            <a href="#" class="aconra">Mais</a>
-            <a href="#" class="ancora">FAQ</a>
+                <a href="#" id="link">Inicio</a>
+                <a href="#" id="link">Sobre</a>
+                <a href="#" id="link">Mais</a>
+                <a href="#" id="link">FAQ</a>
         </nav>
     </header>
     <div class="container">
