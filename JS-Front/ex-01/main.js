@@ -57,7 +57,7 @@ btn.addEventListener('mouseout', () => {
 
 
 
-let nvg = document.querySelectorAll('[id^="link"]')
+let nvg = document.querySelectorAll('.nav-link')
 nvg.forEach(nvg => {
         nvg.addEventListener('mouseenter', () => {
             nvg.style.border= '2px solid white'
