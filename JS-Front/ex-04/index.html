@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+</head>
+<body>
+    <header>
+        <h1>Contador</h1>
+    </header>
+    <section>
+        <p>Inicio</p>
+        <input type="number" placeholder="Digite um valor..." id="inicio">
+        <p>Termino</p>
+        <input type="number" placeholder="Digite um valor..." id="end">
+        <p>Deseja pular casas?</p>
+        <input type="number" placeholder="Quantas?..." id="jump">
+        <div id="result"></div>
+        <div class="container-btn">
+            <button type="submit" id="btn" onclick="calcular()" onmouseenter="estiloBtn()" onmouseout="estiloBtnOut()">Enviar</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy;JavaScript-Front - DrwaxP</p>
+    </footer>
+    <script src="./main.js"></script>
+</body>
+</html>
