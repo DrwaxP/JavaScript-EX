@@ -15,7 +15,7 @@ function tabel(a, b) {
 
 }
 
-//tabel(1, 5);
+tabel(1, 5);
 
 function search(arr, a, b) {
     return arr.find(item => (a <= item && item <= b ));
